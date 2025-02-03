@@ -23,7 +23,7 @@ app.use("",employeeRouter);
 app.listen('5000',()=> console.log('server running at port 5000'))
 
 //connecting to database
-mongoose.connect('mongodb://localhost:27017/vacproject')
+mongoose.connect('mongodb+srv://swethasundaram:sweths2005@mycluster.0dm5a.mongodb.net/?retryWrites=true&w=majority&appName=MyCluster')
   .then(()=>console.log('database connected..'))
   .catch((err)=>console.log(err))
 
